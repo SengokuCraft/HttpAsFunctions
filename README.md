@@ -1,2 +1,2 @@
 # HTTP as Functions
-## 略して HaF !!
+略して HaF !!
