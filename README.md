@@ -2,13 +2,13 @@
 
 略して HaF !!
 
-## How to use
+# How to use
 
-1. Download
+## 1. Download
 
 - ver1.2.2: [HttpAsFunction-1-2-2.jar](https://github.com/TwoSquirrels/HttpAsFunctions/raw/main/target/HttpAsFunctions-1.2.2.jar)
 
-2. Dependencies
+## 2. Dependencies
 
 ### raw
 `io.github.twosquirrels:httpasfunctions:1.2.2`
@@ -29,7 +29,7 @@
 // todo
 ```
 
-3. Write your code!
+## 3. Write your code!
 
 ### TODO
 
