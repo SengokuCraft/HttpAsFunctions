@@ -31,8 +31,8 @@
 
 ## 3. Write your code!
 
-### TODO
+### document
 
-TODO
+[Javadoc](https://twosquirrels.github.io/HttpAsFunctions/target/site/apidocs/)
 
 
