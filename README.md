@@ -29,14 +29,12 @@ HTTP通信を関数の用に扱えるライブラリです。
   <artifactId>httpasfunctions</artifactId>
   <version>1.2.2</version>
 </dependency>
-
 ```
 
 ### gradle
 ```gradle
 // https://github.com/TwoSquirrels/HttpAsFunctions
-'io.github.twosquirrels:httpasfunctions:1.2.2'
-
+implementation 'io.github.twosquirrels:httpasfunctions:1.2.2'
 ```
 
 ## 3. Write your code!
