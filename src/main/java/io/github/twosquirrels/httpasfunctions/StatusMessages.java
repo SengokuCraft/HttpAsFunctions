@@ -5,7 +5,7 @@ import java.util.HashMap;
 /**
  * HashMap extension class to get the meaning of the response from the HTTP status code
  * @author TwoSquirrels
- * @version 1.2.2
+ * @version 1.3.0
  */
 public class StatusMessages extends HashMap<Integer, String> {
     

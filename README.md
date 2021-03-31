@@ -14,12 +14,13 @@ HTTP通信を関数の用に扱えるライブラリです。
 
 ## 1. Download
 
-- ver1.2.2: [HttpAsFunction-1-2-2.jar](https://github.com/TwoSquirrels/HttpAsFunctions/raw/main/target/HttpAsFunctions-1.2.2.jar)
+- ver1.2.2: [HttpAsFunctions-1-2-2.jar](https://github.com/TwoSquirrels/HttpAsFunctions/raw/main/target/HttpAsFunctions-1.2.2.jar)
+- ver1.3.0: [HttpAsFunctions-1-3-0.jar](https://github.com/TwoSquirrels/HttpAsFunctions/raw/main/target/HttpAsFunctions-1-3-0.jar)
 
 ## 2. Dependencies
 
 ### raw
-`io.github.twosquirrels:httpasfunctions:1.2.2`
+`io.github.twosquirrels:httpasfunctions:1.3.0`
 
 ### maven
 ```xml
@@ -27,14 +28,14 @@ HTTP通信を関数の用に扱えるライブラリです。
 <dependency>
   <groupId>io.github.twosquirrels</groupId>
   <artifactId>httpasfunctions</artifactId>
-  <version>1.2.2</version>
+  <version>1.3.0</version>
 </dependency>
 ```
 
 ### gradle
 ```gradle
 // https://github.com/TwoSquirrels/HttpAsFunctions
-implementation 'io.github.twosquirrels:httpasfunctions:1.2.2'
+implementation 'io.github.twosquirrels:httpasfunctions:1.3.0'
 ```
 
 ## 3. Write your code!

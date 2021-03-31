@@ -3,7 +3,7 @@ package io.github.twosquirrels.httpasfunctions;
 /*
  * An exception class that extends from RuntimeException that has a status code
  * @author TwoSquirrels
- * @version 1.2.2
+ * @version 1.3.0
  */
 public class HaFException extends RuntimeException {
     

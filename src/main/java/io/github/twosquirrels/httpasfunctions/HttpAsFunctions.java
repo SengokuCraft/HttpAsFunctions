@@ -21,7 +21,7 @@ import java.util.function.*;
  * Use Gson, Spark and OkHttp3.
  * Require Gson.
  * @author TwoSquirrels
- * @version 1.2.2
+ * @version 1.3.0
  */
 public class HttpAsFunctions {
 
@@ -100,12 +100,13 @@ public class HttpAsFunctions {
      * @throws HaFException When the response is error format.
      */
     static public JsonElement callFunc(int port, String name, JsonElement request) throws IllegalArgumentException, NullPointerException, IOException, JsonSyntaxException, IllegalStateException, HaFException {
-        return callFunc("localhost", port, name, request);
+        return callFunc("localhost", false, port, name, request);
     }
     /**
      * Call an internet function.
      * @param host the host(ex:"localhost") where the function to call is
      * @param port the port(ex:8080) where the function to call is
+     * @param secure whether it is "https"
      * @param name the function name
      * @param request the function argument JsonElement
      * @return return value JsonElement of the return value of the function
@@ -116,9 +117,9 @@ public class HttpAsFunctions {
      * @throws IllegalStateException When the call has already been http request executed.
      * @throws HaFException When the response is error format.
      */
-    static public JsonElement callFunc(String host, int port, String name, JsonElement request) throws IllegalArgumentException, NullPointerException, IOException, JsonSyntaxException, IllegalStateException, HaFException {
+    static public JsonElement callFunc(String host, boolean secure, int port, String name, JsonElement request) throws IllegalArgumentException, NullPointerException, IOException, JsonSyntaxException, IllegalStateException, HaFException {
         final Request okRequest = new Request.Builder()
-                .url("http://" + host + ":" + port + "/" + name)
+                .url((secure ? "https" : "http") + "://" + host + ":" + port + "/" + name)
                 .post(
                         RequestBody.Companion.create(
                                 gson.toJson(request),

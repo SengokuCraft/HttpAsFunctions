@@ -5,7 +5,7 @@ import com.google.gson.*;
 /**
  * Wrapper class for using JsonObject as an argument of HttpAsFunctions
  * @author TwoSquirrels
- * @version 1.2.2
+ * @version 1.3.0
  */
 public class JsonObjectArgs {
 
