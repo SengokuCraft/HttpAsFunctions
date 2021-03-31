@@ -56,6 +56,6 @@ implementation 'io.github.twosquirrels:httpasfunctions:1.2.2'
 
 - マイクラのプラグイン同士でデータの送信、取得をしたい時
 
-## ネットワーク関
+## ネットワーク間
 
 - ソフトやゲームでサーバーにデータを送信したりサーバーからデータを取得したい時
