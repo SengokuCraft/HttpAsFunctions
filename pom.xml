@@ -101,6 +101,8 @@
             <encoding>UTF-8</encoding>
             <charset>UTF-8</charset>
             <docencoding>UTF-8</docencoding>
+            <reportOutputDirectory>./docs/${project.version}/javadoc</reportOutputDirectory>
+            <destDir>javadoc</destDir>
           </configuration>
         </plugin>
       </plugins>

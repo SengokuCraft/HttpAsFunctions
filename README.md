@@ -14,7 +14,6 @@ HTTP通信を関数の用に扱えるライブラリです。
 
 ## 1. Download
 
-- ver1.2.2: [httpasfunctions-1.2.2.jar](https://github.com/TwoSquirrels/HttpAsFunctions/raw/main/target/httpasfunctions-1.2.2.jar)
 - ver1.3.0: [httpasfunctions-1.3.0.jar](https://github.com/TwoSquirrels/HttpAsFunctions/raw/main/target/httpasfunctions-1.3.0.jar)
 
 ## 2. Dependencies
@@ -42,7 +41,7 @@ implementation 'io.github.twosquirrels:httpasfunctions:1.3.0'
 
 ### document
 
-[Javadoc](https://twosquirrels.github.io/HttpAsFunctions/target/site/apidocs/)
+[Javadoc](https://twosquirrels.github.io/HttpAsFunctions/1.3.0/javadoc/)
 
 ドキュメント書くのだるそう
 とりあえずJavadocみるなり僕に聞くなりして使ってちょ
