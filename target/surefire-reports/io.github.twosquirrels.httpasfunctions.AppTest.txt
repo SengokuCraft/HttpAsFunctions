@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: io.github.twosquirrels.httpasfunctions.AppTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.228 s - in io.github.twosquirrels.httpasfunctions.AppTest
