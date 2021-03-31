@@ -14,8 +14,8 @@ HTTP通信を関数の用に扱えるライブラリです。
 
 ## 1. Download
 
-- ver1.2.2: [HttpAsFunctions-1-2-2.jar](https://github.com/TwoSquirrels/HttpAsFunctions/raw/main/target/HttpAsFunctions-1.2.2.jar)
-- ver1.3.0: [HttpAsFunctions-1-3-0.jar](https://github.com/TwoSquirrels/HttpAsFunctions/raw/main/target/HttpAsFunctions-1-3-0.jar)
+- ver1.2.2: [HttpAsFunctions-1.2.2.jar](https://github.com/TwoSquirrels/HttpAsFunctions/raw/main/target/HttpAsFunctions-1.2.2.jar)
+- ver1.3.0: [HttpAsFunctions-1.3.0.jar](https://github.com/TwoSquirrels/HttpAsFunctions/raw/main/target/HttpAsFunctions-1.3.0.jar)
 
 ## 2. Dependencies
 
