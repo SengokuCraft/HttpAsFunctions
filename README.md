@@ -43,7 +43,7 @@ implementation 'io.github.twosquirrels:httpasfunctions:1.3.0'
 
 [Javadoc](https://twosquirrels.github.io/HttpAsFunctions/1.3.0/javadoc/)
 
-ドキュメント書くのだるそう
+ドキュメント書くのだるそう  
 とりあえずJavadocみるなり僕に聞くなりして使ってちょ
 
 ### example
