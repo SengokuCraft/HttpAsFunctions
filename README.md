@@ -12,34 +12,60 @@ HTTP通信を関数の用に扱えるライブラリです。
 
 # How to use
 
-## 1. Download
-
-- ver1.3.0: [httpasfunctions-1.3.0.jar](https://github.com/TwoSquirrels/HttpAsFunctions/raw/main/target/httpasfunctions-1.3.0.jar)
-
-## 2. Dependencies
-
-これだけではだめらしいです
+## 1. Dependencies
 
 ### raw
-`io.github.twosquirrels:httpasfunctions:1.3.0`
+
+- repository: `https://raw.githubusercontent.com/TwoSquirrels/HttpAsFunctions/main/repository`
+- gropuId: `io.github.twosquirrels`
+- artifactId: `httpasfunctions`
+- version: `1.3.0`
 
 ### maven
+
 ```xml
-<!-- https://github.com/TwoSquirrels/HttpAsFunctions -->
-<dependency>
-  <groupId>io.github.twosquirrels</groupId>
-  <artifactId>httpasfunctions</artifactId>
-  <version>1.3.0</version>
-</dependency>
+<project ...>
+
+  ...
+
+  <dependencies>
+
+    ...
+
+    <!-- https://github.com/TwoSquirrels/HttpAsFunctions -->
+    <dependency>
+      <groupId>io.github.twosquirrels</groupId>
+      <artifactId>httpasfunctions</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+
+  </dependencies>
+
+  ...
+
+  <repositories>
+
+    ...
+
+    <!-- https://github.com/TwoSquirrels/HttpAsFunctions -->
+    <repository>
+      <id>twosquirrels-haf</id>
+      <name>Repository for Http as Functions</name>
+      <url>https://raw.githubusercontent.com/TwoSquirrels/HttpAsFunctions/main/repository</url>
+    </repository>
+
+  </repositories>
+
+  ...
+
+</project>
 ```
 
 ### gradle
-```gradle
-// https://github.com/TwoSquirrels/HttpAsFunctions
-implementation 'io.github.twosquirrels:httpasfunctions:1.3.0'
-```
 
-## 3. Write your code!
+Sorry, I do not understand.
+
+## 2. Write your code!
 
 ### document
 
