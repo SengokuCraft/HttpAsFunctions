@@ -18,6 +18,8 @@ HTTP通信を関数の用に扱えるライブラリです。
 
 ## 2. Dependencies
 
+これだけではだめらしいです
+
 ### raw
 `io.github.twosquirrels:httpasfunctions:1.3.0`
 
