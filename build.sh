@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # build all
-
+pwd
 if [[ $1 =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
     echo "Replacing @version in java code...."
     sed -i -e "s/\
@@ -34,7 +34,7 @@ if [[ $1 =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
     echo "Finished building."
     echo -n \
 "Do you want to make repository and generate javadoc? [Y/n]: "
-    read genRepoAneDoc
+    read genRepoAndDoc
     case $genRepoAndDoc in
         "" | [Yy]* )
             echo "Starting making repository...."
