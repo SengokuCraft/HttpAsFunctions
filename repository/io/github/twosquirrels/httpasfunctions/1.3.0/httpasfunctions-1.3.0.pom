@@ -6,7 +6,7 @@
 
   <!-- The Basics -->
 
-  <groupId>io.github.twosquirrells</groupId>
+  <groupId>io.github.twosquirrels</groupId>
   <artifactId>httpasfunctions</artifactId>
   <version>1.3.0</version>
 
